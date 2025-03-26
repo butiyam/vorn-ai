@@ -27,7 +27,7 @@ createAppKit({
   adapters: [wagmiAdapter, coinbaseWallet({
     appName: 'Vorn AI Souce',
     appLogoUrl: 'https://www.vorn.ai/assets/logo.svg', 
-    preference: 'all'
+    preference: { options: 'all'}
   })],
   networks,
   projectId,
